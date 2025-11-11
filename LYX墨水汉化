@@ -1,0 +1,303 @@
+local Translations = {
+    -- 界面标题与模块
+    ["BorenHub"] = "墨水汉化",
+    ["Ink Game | BorenHub"] = "墨水游戏 | LYX汉化",
+    ["Main"] = "主菜单",
+    ["Combat"] = "战斗",
+    ["Misc"] = "杂项",
+    ["Halloween"] = "万圣节",
+    ["UI Setting"] = "界面设置",
+    -- 功能分类
+    ["Autowin"] = "自动胜利",
+    ["Green Light Red Light"] = "红绿灯",
+    ["Hide and Seek"] = "捉迷藏",
+    ["Dalgona"] = "糖饼",
+    ["Tug of War"] = "拔河",
+    ["Jump Rope"] = "跳绳",
+    ["Glass Bridge"] = "玻璃桥",
+    ["Social"] = "交际",
+    ["Sky Squid"] = "最终战",
+    ["FinalDinner"] = "最后的晚餐",
+    ["Traitor"] = "反叛",
+    ["Aura"] = "光环",
+    ["Attachment"] = "附着",
+    ["Movement"] = "移动",
+    ["Automation"] = "自动化",
+    ["General"] = "一般",
+    ["KeepPlaying"] = "持续游玩",
+    ["Fun"] = "趣味功能",
+    ["Info & Credit"] = "信息与感谢",
+    ["Menu Setting"] = "菜单设置",
+    ["Config"] = "配置",
+    -- 具体功能
+    ["Auto Win"] = "自动胜利",
+    ["Win Instantly"] = "立即胜利",
+    ["Help Player"] = "帮助玩家",
+    ["Remove InjuredWalking"] = "移除受伤行走",
+    ["Troll Player"] = "整蛊玩家",
+    ["Kill Aura (Hiders)"] = "杀手光环（躲藏者）",
+    ["Kill spike"] = "杀死尖刺",
+    ["Remove Spike"] = "移除尖刺",
+    ["Teleport to Hider"] = "传送至躲藏者",
+    ["ESP hiders and seeker"] = "透视躲藏者与寻找者",
+    ["ESP Door"] = "透视门",
+    ["Complete Dalgona"] = "完成糖饼",
+    ["Free Lighter"] = "免费打火机",
+    ["AUTO PULL"] = "自动拉扯",
+    ["Teleport 100 Blocks Up"] = "向上传送100格",
+    ["Teleport 40 Blocks Down"] = "向下传送40格",
+    ["Auto Dodge"] = "自动躲避",
+    ["Teleport to End"] = "传送至终点",
+    ["Remove Rope"] = "移除绳子",
+    ["Highlight Glas"] = "高亮玻璃",
+    ["Legit Anti Fall"] = "合理防坠落",
+    ["Auto QTE Rage (Anti Stun)"] = "自动QTE暴怒（防眩晕）",
+    ["Rage QTE"] = "暴怒QTE",
+    ["Noclip"] = "穿墙",
+    ["Teleport to Room"] = "传送至房间",
+    ["Teleport to Safe Zone"] = "传送至安全区",
+    ["Auto Camlock Guard"] = "自动锁定守卫视角",
+    ["Bring Guard"] = "召唤守卫",
+    ["无限弹药"] = "无限弹药",
+    ["PlayableGuard feature"] = "可玩守卫功能",
+    ["Hitbox Expander(only g"] = "碰撞箱扩大（仅守卫）",
+    ["Hitbox Size"] = "碰撞箱大小",
+    ["Kill aura"] = "杀手光环",
+    ["Camlock Player / TP"] = "锁定玩家视角/传送",
+    ["Auto Weapon"] = "自动武器",
+    ["GodMode(risk ban + Use)"] = "上帝模式（有封禁风险+使用）",
+    ["Anti Ragdoll + No Stun"] = "防肢体瘫痪+无眩晕",
+    ["FOV Changer"] = "视野修改器",
+    ["FOV Value"] = "视野值",
+    ["Reset FOV to Default"] = "重置视野为默认",
+    ["玩家 Attach"] = "玩家附着",
+    ["Attach Range"] = "附着范围",
+    ["Movement Type"] = "移动类型",
+    ["Tween"] = "补间",
+    ["Tween Duration"] = "补间时长",
+    ["Stay Behind Target"] = "保持在目标后方",
+    ["Behind Distance"] = "后方距离",
+    ["Infinite Jump"] = "无限跳跃",
+    ["Walkspeed"] = "行走速度",
+    ["Walk Speed Value"] = "行走速度值",
+    ["Reset Walk Speed"] = "重置行走速度",
+    ["Auto Collect Flashbang"] = "自动收集闪光弹",
+    ["Auto Collect Bandage"] = "自动收集绷带",
+    ["FREE GUARD"] = "免费守卫",
+    ["Circle"] = "圆形",
+    ["Spawn as Guard"] = "以守卫身份生成",
+    ["Auto Farm Money (35s 2x)"] = "自动刷钱（35秒双倍）",
+    ["Auto Skip Dialogue"] = "自动跳过对话",
+    ["Auto Vote"] = "自动投票",
+    ["Vote Option"] = "投票选项",
+    ["Free Phantomstep"] = "免费幽灵步",
+    ["Free ParkourArtist"] = "免费跑酷艺术家",
+    ["Free Dash"] = "免费冲刺",
+    ["Anti Fling"] = "防肘击",
+    ["Anti Banana"] = "防香蕉",
+    ["Anti Stun"] = "防眩晕",
+    ["Anti Ragdoll"] = "防肢体瘫痪",
+    ["Auto reach"] = "自动延伸",
+    ["No Cooldown Proximity"] = "无冷却接近",
+    ["Anti Lag"] = "防延迟",
+    ["Free VIP (Visual)"] = "免费VIP（视觉）",
+    ["Enable Spectate"] = "启用观战",
+    ["Set Custom costume"] = "设置自定义服装",
+    ["Custom Win"] = "自定义胜利",
+    ["Set Custom Tag"] = "设置自定义标签",
+    ["Enter tag number (0-999)..."] = "输入标签编号(0-999)...",
+    ["Candy ESP"] = "糖果透视",
+    ["ESP Halloween Door"] = "万圣节门透视",
+    ["Select Door"] = "选择门",
+    ["Pumpkin"] = "南瓜",
+    ["Teleport to Selected Door"] = "传送至所选门",
+    ["BorenHub TEAM - Python / Lua"] = "劳绿汉化团队 - Python / Lua",
+    ["Thanks for using BorenHub!"] = "感谢使用劳绿汉化！",
+    ["Executor: Delta"] = "执行器: Delta",
+    ["JobId:"] = "任务ID:",
+    ["Copy JobId"] = "复制任务ID",
+    ["Copy discord"] = "复制Discord链接",
+    ["Custom Cursor"] = "自定义光标",
+    ["DPI Scale"] = "DPI缩放",
+    ["Menu Keybind"] = "菜单按键绑定",
+    ["RightShift"] = "右Shift",
+    ["Unload"] = "卸载",
+    -- 输入与按钮
+    ["Enter key for ink game"] = "输入墨水游戏密钥",
+    ["Here key"] = "在此输入密钥",
+    ["key get in discord"] = "在Discord获取密钥",
+    ["Submit"] = "提交",
+    ["Reset Key"] = "重置密钥",
+    ["Get Key"] = "获取密钥",
+    ["Search"] = "搜索",
+    ["Toggle"] = "切换",
+    ["Lock"] = "锁定",
+}
+
+-- 修复翻译函数
+local function translateText(text)
+    if not text or type(text) ~= "string" then 
+        return text 
+    end
+    
+    -- 直接匹配
+    if Translations[text] then
+        return Translations[text]
+    end
+    
+    -- 部分匹配替换
+    local translated = text
+    for en, cn in pairs(Translations) do
+        if en ~= "" and text:find(en, 1, true) then
+            translated = translated:gsub(en, cn)
+        end
+    end
+    
+    return translated
+end
+
+-- 安全的元表操作
+local function safeHookMetatable()
+    local success, result = pcall(function()
+        if not getrawmetatable then
+            return false, "getrawmetatable不可用"
+        end
+        
+        local mt = getrawmetatable(game)
+        if not mt then
+            return false, "无法获取游戏元表"
+        end
+        
+        local oldNewIndex = mt.__newindex
+        if not oldNewIndex then
+            return false, "元表缺少__newindex"
+        end
+        
+        setreadonly(mt, false)
+        
+        mt.__newindex = newcclosure(function(t, k, v)
+            if k == "Text" and (t:IsA("TextLabel") or t:IsA("TextButton") or t:IsA("TextBox")) then
+                local originalText = tostring(v)
+                local translatedText = translateText(originalText)
+                if translatedText ~= originalText then
+                    v = translatedText
+                end
+            end
+            return oldNewIndex(t, k, v)
+        end)
+        
+        setreadonly(mt, true)
+        return true
+    end)
+    
+    return success, result
+end
+
+-- 备用翻译系统（如果元表劫持失败）
+local function setupBackupTranslation()
+    local translatedObjects = {}
+    
+    local function translateGUI(gui)
+        if translatedObjects[gui] then return end
+        
+        if gui:IsA("TextLabel") or gui:IsA("TextButton") or gui:IsA("TextBox") then
+            local text = gui.Text
+            if text and text ~= "" then
+                local translated = translateText(text)
+                if translated ~= text then
+                    pcall(function()
+                        gui.Text = translated
+                        translatedObjects[gui] = true
+                    end)
+                end
+            end
+        end
+    end
+    
+    local function scanGUIs(parent)
+        for _, child in ipairs(parent:GetDescendants()) do
+            translateGUI(child)
+        end
+    end
+    
+    -- 初始扫描
+    local coreGui = game:GetService("CoreGui")
+    if coreGui then
+        scanGUIs(coreGui)
+    end
+    
+    local players = game:GetService("Players")
+    local localPlayer = players.LocalPlayer
+    if localPlayer then
+        local playerGui = localPlayer:WaitForChild("PlayerGui", 10)
+        if playerGui then
+            scanGUIs(playerGui)
+        end
+    end
+    
+    -- 监听新创建的GUI
+    local function setupDescendantAdded(parent)
+        parent.DescendantAdded:Connect(function(descendant)
+            task.wait(0.1) -- 等待属性初始化
+            translateGUI(descendant)
+        end)
+    end
+    
+    if coreGui then
+        pcall(setupDescendantAdded, coreGui)
+    end
+    
+    if localPlayer and localPlayer:FindFirstChild("PlayerGui") then
+        pcall(setupDescendantAdded, localPlayer.PlayerGui)
+    end
+    
+    -- 定期扫描（作为备用）
+    spawn(function()
+        while true do
+            task.wait(5)
+            if coreGui then
+                pcall(scanGUIs, coreGui)
+            end
+            if localPlayer and localPlayer:FindFirstChild("PlayerGui") then
+                pcall(scanGUIs, localPlayer.PlayerGui)
+            end
+        end
+    end)
+end
+
+-- 主初始化函数
+local function initializeTranslator()
+    print("正在初始化翻译系统...")
+    
+    -- 等待游戏完全加载
+    task.wait(2)
+    
+    -- 尝试元表劫持
+    local metatableSuccess, metatableError = safeHookMetatable()
+    
+    if metatableSuccess then
+        print("✓ 元表劫持翻译系统已启用")
+    else
+        warn("✗ 元表劫持失败:", metatableError)
+        print("正在启用备用翻译系统...")
+        setupBackupTranslation()
+        print("✓ 备用翻译系统已启用")
+    end
+    
+    -- 加载外部脚本
+    print("正在加载外部脚本...")
+    local loadSuccess, loadError = pcall(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/eikikrkr-ux/bypasok/refs/heads/main/ok"))()
+    end)
+    
+    if loadSuccess then
+        print("✓ 外部脚本加载成功")
+    else
+        warn("✗ 外部脚本加载失败:", loadError)
+    end
+    
+    print("翻译系统初始化完成")
+end
+
+-- 启动翻译系统
+initializeTranslator()
