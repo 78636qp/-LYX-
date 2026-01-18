@@ -1,0 +1,217 @@
+local Translations = {
+["Anti-cheat Bypassed!"] = "反作弊已绕过！",
+["Executing Script..."] = "正在执行脚本...",
+["Lexus Hub Loaded!"] = "LYX汉化加载完成！",
+["Version: v1.0.3"] = "版本：v1.0.3",
+["Removed Old Silent Aim (XENO/SOLARA)"] = "已移除旧版静默瞄准（XENO/SOLARA）",
+["Added Target Priority for new Silent Aim (XENO/SOLARA)"] = "为新版静默瞄准（XENO/SOLARA）添加了目标优先级",
+["Fixed Team Check"] = "修复了队伍检测",
+["Added Wallbang (currently WIP!)"] = "添加了穿墙射击（开发中！）",
+["Reminder: Script is still in Beta Version! Expect some Bugs!"] = "提醒：脚本仍处于测试版！可能存在一些BUG！",
+["Lock"] = "锁定",
+["Toggle"] = "切换",
+["Lexus Hub | Rivals"] = "汉化脚本 hub | 竞争对手",
+["Search"] = "搜索",
+["Aimbot/Silent Aim"] = "自瞄/静默瞄准",
+["ESP/Visuals"] = "透视/视觉效果",
+["Movement"] = "移动",
+["Protection"] = "防护",
+["Extras/Misc"] = "额外/杂项",
+["UI Settings"] = "界面设置",
+["Aimbot Main Settings"] = "自瞄主设置",
+["FOV Settings"] = "视野设置",
+["Enable Aimbot"] = "启用自瞄",
+["Aimbot Keybind"] = "自瞄按键",
+["None"] = "无",
+["Aimbot Mode"] = "自瞄模式",
+["Rage"] = "激进",
+["Lock Target"] = "锁定目标",
+["Auto"] = "自动",
+["Sensitivity (Legit)"] = "灵敏度（正常）",
+["Aimbot FOV"] = "自瞄视野",
+["Wallbang [WIP]"] = "穿墙射击 [开发中]",
+["Silent Aim"] = "静默瞄准",
+["Silent Aim Keybind"] = "静默瞄准按键",
+["Silent Aim Hitchance"] = "静默瞄准命中率",
+["Undetected | Version: v1.0.3 | Keyless"] = "未被检测 | 版本：v1.0.3 | 无按键",
+["Lock"] = "锁定",
+["Toggle"] = "切换",
+["Aim Mode"] = "瞄准模式",
+["Camera"] = "相机",
+["Priority"] = "优先级",
+["Distance"] = "距离",
+["Max Distance"] = "最大距离",
+["studs"] = "单位",
+["Dead Check"] = "死亡检测",
+["Wall Check"] = "穿墙检测",
+["Team Check"] = "队伍检测",
+["Silent Aim Target Part"] = "静默瞄准目标部位",
+["FOV Circle"] = "视野圆圈",
+["FOV Circle Size"] = "视野圆圈大小",
+["px"] = "像素",
+["Rainbow FOV"] = "彩虹视野",
+["ESP/Visuals"] = "透视/视觉效果",
+["Player ESP Options"] = "玩家透视选项",
+["ESP Master Keybind"] = "透视总按键",
+["Enable Player ESP"] = "启用玩家透视",
+["Box ESP"] = "方框透视",
+["Chams ESP"] = "高亮透视",
+["Name"] = "名称",
+["Distance"] = "距离",
+["Health"] = "生命值",
+["Skeleton ESP Options"] = "骨骼透视选项",
+["Skeleton ESP"] = "骨骼透视",
+["Tracers"] = "射线追踪",
+["Equipped Weapon"] = "已装备武器",
+["Other Visuals"] = "其他视觉效果",
+["Hide Dead ESP"] = "隐藏死亡透视",
+["Rainbow Mode"] = "彩虹模式",
+["Movement"] = "移动",
+["Movement Options"] = "移动选项",
+["Fly Hack"] = "飞行作弊",
+["Fly Speed"] = "飞行速度",
+["Fly Keybind"] = "飞行按键",
+["Additional Movement"] = "额外移动",
+["Infinite Jump"] = "无限跳跃",
+["No Clip"] = "穿墙模式",
+["Bunny Hop"] = "兔子跳",
+["Fullbright"] = "全亮度",
+["Remove Fog"] = "移除雾气",
+["Extras/Misc"] = "额外/杂项",
+["Extras Options"] = "额外选项",
+["FPS Boost"] = "帧率提升",
+["Remove Textures (Extreme FPS)"] = "移除纹理（极限帧率）",
+["Anti Flashbang + No Smoke"] = "防闪光弹 + 无烟雾",
+["Anti-Katana"] = "防武士刀",
+["Deflect Block Sound"] = "格挡音效反弹",
+["Computer"] = "电脑",
+["Protection"] = "防护",
+["Protection Options"] = "防护选项",
+["Prevent Out of Bounds"] = "防止出界",
+["Anti-Aim"] = "反自瞄",
+["Mode"] = "模式",
+["Spin"] = "旋转",
+["Spin Speed"] = "旋转速度",
+["Force Third Person"] = "强制第三人称",
+["UI Settings"] = "界面设置",
+["Menu"] = "菜单",
+["Open Keybind Menu"] = "打开按键菜单",
+["Custom Cursor"] = "自定义光标",
+["Notification Side"] = "通知位置",
+["Right"] = "右侧",
+["Unload Script"] = "卸载脚本",
+["Menu Keybind"] = "菜单按键",
+["RightShift"] = "右Shift",
+["Configuration"] = "配置",
+["Config Management"] = "配置管理",
+["Select Config"] = "选择配置",
+["Config Name"] = "配置名称",
+["MyConfig"] = "我的配置",
+["Save Config"] = "保存配置",
+["Load Config"] = "加载配置",
+["Custom themes"] = "自定义主题",
+["Load theme"] = "加载主题",
+["Overwrite theme"] = "覆盖主题",
+["Delete theme"] = "删除主题",
+["Refresh list"] = "刷新列表",
+["Reset default"] = "重置默认",
+["Font Face"] = "字体样式",
+["Code"] = "代码体",
+["Theme list"] = "主题列表",
+["Default"] = "默认",
+["Set as default"] = "设为默认",
+["Custom theme name"] = "自定义主题名称",
+["Create theme"] = "创建主题",
+["Themes"] = "主题",
+["Background color"] = "背景颜色",
+["Main color"] = "主色调",
+["Accent color"] = "强调色",
+["Outline color"] = "边框颜色",
+["Font color"] = "字体颜色",
+["Delete Config"] = "删除配置",
+["Refresh Config List"] = "刷新配置列表",
+["Set as Autoload"] = "设置为自动加载",
+["TriggerBot"] = "触发自动射击",
+["TriggerBot Keybind"] = "触发自动射击按键",
+["TriggerBot Delay"] = "触发自动射击延迟",
+["ms"] = "毫秒",
+["Bypassing Anti-cheat"] = "正在绕过反作弊",
+["Please wait."] = "请稍候。",
+["Legit"] = "正常模式",
+["Sensitivity (Legit)"] = "灵敏度（正常模式）",
+["Camera"] = "相机",
+["Priority"] = "优先级",
+["Distance"] = "距离",
+["Health"] = "生命值",
+["Jitter"] = "抖动模式",
+["Random"] = "随机模式",
+["Silent Aim Target Part"] = "静默瞄准目标部位",
+["Head"] = "头部",
+["UpperTorso"] = "上躯干",
+["LowerTorso"] = "下躯干",
+["HumanoidRootPart"] = "人形根部位",
+["LeftHand"] = "左手",
+["RightHand"] = "右手",
+["LeftFoot"] = "左脚",
+["RightFoot"] = "右脚",
+["LeftUpperArm"] = "左上臂",
+["RightUpperArm"] = "右上臂",
+["LeftLowerArm"] = "左前臂",
+["RightLowerArm"] = "右前臂",
+["LeftUpperLeg"] = "左大腿",
+["RightUpperLeg"] = "右大腿",
+["LeftLowerLeg"] = "左小腿",
+["RightLowerLeg"] = "右小腿",
+["Auto = closest visible part (recommended)"] = "自动 = 最近可见部位（推荐）",
+}
+
+local keys = {}
+for k in pairs(Translations) do
+    table.insert(keys, k)
+end
+table.sort(
+    keys,
+    function(a, b)
+        return #a > #b
+    end
+)
+
+local function safeReplace(text, old, new)
+    local result = ""
+    local start = 1
+    while true do
+        local i, j = string.find(text, old, start, true)
+        if not i then
+            result = result .. string.sub(text, start)
+            break
+        end
+        result = result .. string.sub(text, start, i - 1) .. new
+        start = j + 1
+    end
+    return result
+end
+
+local function translateText(text)
+    if not text or type(text) ~= "string" then
+        return text
+    end
+    for _, k in ipairs(keys) do
+        text = safeReplace(text, k, Translations[k])
+    end
+    return text
+end
+
+local oldNewIndex
+oldNewIndex =
+    hookmetamethod(
+    game,
+    "__newindex",
+    function(self, key, value)
+        if key == "Text" and type(value) == "string" then
+            value = translateText(value)
+        end
+        return oldNewIndex(self, key, value)
+    end
+)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/awakeningswifters/LexusHubLoader/refs/heads/main/Loader.lua"))()
